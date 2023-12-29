@@ -1,0 +1,1 @@
+{"IOManager":{"InputFilePath":"prices.txt","OutputFilePath":"result_0.json"},"TaxRate":0,"InputPrices":[20.99,30.99,12],"TaxIncludedPrice":{"12.00":"12.00","20.99":"20.99","30.99":"30.99"}}
