@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"encoding/json"
 	"errors"
-	"fmt"
 	"os"
 )
 
@@ -17,7 +16,7 @@ func (fm FileManager) Readline() ([]string, error) {
 	file, err := os.Open(fm.InputFilePath)
 
 	if err != nil {
-		fmt.Println(err)
+		// fmt.Println(err)
 		return nil, errors.New("unable to open file")
 	}
 
